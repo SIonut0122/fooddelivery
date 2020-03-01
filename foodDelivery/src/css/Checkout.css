@@ -1,0 +1,304 @@
+@media screen and (max-width: 350px) {
+  .wrap_checkout_inputs {
+    width: 300px !important; }
+  .wrap_checkout_inputs ul {
+    width: 90% !important; } }
+
+@media screen and (max-width: 400px) {
+  .checkout_wrap_cont_header span:nth-child(1),
+  .checkout_wrap_cont_header span:nth-child(3) {
+    display: none !important; } }
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  .wrap_checkout_inputs {
+    width: 330px !important; }
+  .wrap_checkout_inputs ul {
+    width: 80% !important; }
+  .in_checkbox_expdate_wrap,
+  .in_checkbox_cvv_wrap {
+    width: 35% !important; } }
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  .wrap_checkout_inputs {
+    border: 1px solid red;
+    width: 430px !important; } }
+
+.checkout_wrap {
+  display: block;
+  position: relative;
+  min-height: 200px;
+  background-color: #F2F2F2; }
+
+.checkout_wrap_cont_header {
+  display: inline-block;
+  height: 170px;
+  width: 500px;
+  position: relative;
+  padding: .2rem;
+  margin-top: 40px; }
+
+.checkout_wrap_cont_header span:nth-child(1) {
+  display: inline-block;
+  width: 80px;
+  height: 150px;
+  -webkit-box-shadow: 5px 0 4px 0 #000;
+  box-shadow: 5px 0 4px 0 #000;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px; }
+
+.checkout_wrap_cont_header span:nth-child(2) {
+  display: inline-block;
+  width: 220px;
+  height: 150px;
+  border-radius: 5px;
+  margin: 0 20px 0 20px;
+  background-image: url("../images/checkout/visa.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%; }
+
+.checkout_wrap_cont_header span:nth-child(3) {
+  display: inline-block;
+  width: 80px;
+  height: 150px;
+  -webkit-box-shadow: -5px 0 4px 0 #000;
+  box-shadow: -5px 0 4px 0 #000;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px; }
+
+.wrap_checkout_inputs {
+  position: relative;
+  display: block;
+  min-height: 400px;
+  width: 550px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 3px 0 #000;
+  box-shadow: 0 0 3px 0 #000;
+  padding: 1rem;
+  margin: 30px 0 10px 0 !important;
+  border-radius: 4px; }
+
+.co_inputs_loading {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(242, 242, 242, 0.3);
+  z-index: 6;
+  left: 0;
+  top: 0; }
+
+.co_in_loading {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  top: 200px; }
+
+.co_in_loading div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: #FA8526;
+  -webkit-animation: co_in_loading 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  animation: co_in_loading 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  opacity: 0.9; }
+
+.co_in_loading div:nth-child(1) {
+  left: 8px;
+  -webkit-animation-delay: -0.24s;
+  animation-delay: -0.24s; }
+
+.co_in_loading div:nth-child(2) {
+  left: 32px;
+  -webkit-animation-delay: -0.12s;
+  animation-delay: -0.12s; }
+
+.co_in_loading div:nth-child(3) {
+  left: 56px;
+  -webkit-animation-delay: 0;
+  animation-delay: 0; }
+
+@-webkit-keyframes co_in_loading {
+  0% {
+    top: 8px;
+    height: 64px; }
+  50%,
+  100% {
+    top: 24px;
+    height: 32px; } }
+
+@keyframes co_in_loading {
+  0% {
+    top: 8px;
+    height: 64px; }
+  50%,
+  100% {
+    top: 24px;
+    height: 32px; } }
+
+.wrap_checkout_inputs ul {
+  width: 70%;
+  text-align: left;
+  padding: 1rem; }
+
+.wrap_checkout_inputs ul li {
+  margin-top: 3px; }
+
+.input_checkout_title {
+  font-family: 'Bitter', serif;
+  margin-top: 5px; }
+
+.input_checkout_txt_info {
+  display: block;
+  position: relative;
+  height: 30px;
+  border-bottom: 1px solid #FA8526;
+  overflow: hidden;
+  margin-top: 0 !important; }
+
+.input_checkout_txt_info input {
+  position: absolute;
+  height: 100% !important;
+  width: 100% !important;
+  top: 0;
+  left: 0; }
+
+.co_wrap_exp_cvv {
+  position: relative;
+  min-height: 80px; }
+
+.in_checkout_expdate_wrap,
+.in_checkout_cvv_wrap {
+  width: 30%;
+  position: relative;
+  height: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.in_checkout_expdate_wrap .inp_checkout_input_wrapp,
+.in_checkout_cvv_wrap .inp_checkout_input_wrapp {
+  position: relative;
+  height: 30px;
+  width: 100%;
+  border-bottom: 1px solid #FA8526;
+  overflow: hidden; }
+
+.in_checkout_expdate_wrap .inp_checkout_input_wrapp input,
+.in_checkout_cvv_wrap .inp_checkout_input_wrapp input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100% !important;
+  width: 100% !important; }
+
+.input_checkout_err_txt {
+  font-size: 12px;
+  height: 20px;
+  color: #FF6565; }
+
+.input_checkout_err_txt span {
+  display: none; }
+
+.checkout_pay_button {
+  position: relative;
+  height: 38px;
+  width: 300px;
+  -webkit-box-shadow: 0 0 2px 0 #000;
+  box-shadow: 0 0 2px 0 #000;
+  margin: 20px;
+  text-align: center;
+  padding: 7px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #FA8526;
+  cursor: pointer;
+  -webkit-transition: .1s;
+  -o-transition: .1s;
+  transition: .1s;
+  border-radius: 3px; }
+
+.checkout_pay_button:hover {
+  -webkit-box-shadow: 0 0 1px 0 #000;
+  box-shadow: 0 0 1px 0 #000; }
+
+.checkout_pay_button:active {
+  -webkit-box-shadow: 0 0 4px 0 #000;
+  box-shadow: 0 0 4px 0 #000; }
+
+.co_pay_meth_title {
+  position: relative;
+  margin-top: 50px; }
+
+.co_paymethods_img {
+  position: relative;
+  display: block;
+  height: 40px;
+  width: 200px;
+  background-image: url("../images/checkout/payment_methods.jpg");
+  background-size: 95%;
+  background-position: 0 50%;
+  background-repeat: no-repeat; }
+
+/* Payment confirmation */
+.wrap_conf_cont {
+  z-index: 6;
+  display: block;
+  background-color: rgba(242, 242, 242, 0.4);
+  position: absolute;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100%;
+  height: 100%;
+  margin: 0 !important; }
+
+.cont_payment_confirmed {
+  display: block;
+  min-height: 300px;
+  background-color: #fff;
+  z-index: 7;
+  position: fixed;
+  top: 200px;
+  -webkit-box-shadow: 0 0 5px 0 #000;
+  box-shadow: 0 0 5px 0 #000;
+  border-radius: 5px;
+  font-family: 'Bitter', serif; }
+
+.cont_payment_confirmed ul li:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px; }
+
+.cont_payment_confirmed ul li:nth-child(2) img {
+  width: 150px;
+  height: 100px;
+  margin-top: 20px;
+  border: 1px solid #777777;
+  border-radius: 3px; }
+
+.cont_payment_confirmed ul li:nth-child(3) {
+  color: #FA8526;
+  font-size: 18px; }
+
+.cont_payment_confirmed ul li:nth-child(4) {
+  margin-top: 10px;
+  font-size: 15px;
+  border-top: 1px solid #777777;
+  padding-top: 1rem; }
+
+.cont_payment_confirmed ul li:nth-child(4) span,
+.cont_payment_confirmed ul li:nth-child(5) span {
+  color: #FA8526; }
+
+.cont_payment_confirmed ul li:nth-child(6) {
+  font-size: 13px;
+  margin-top: 13px;
+  cursor: pointer; }
+
+.cont_payment_confirmed ul li:nth-child(6):hover {
+  opacity: 0.9; }

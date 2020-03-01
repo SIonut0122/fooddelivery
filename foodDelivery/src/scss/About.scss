@@ -1,0 +1,202 @@
+
+
+$org: #FA8526;
+@media screen and (min-width:500px) and (max-width: 993.5px) {
+	.about_secone_img span {
+		margin: 50px 20px 20px 20px !important;
+	}
+}
+
+@media screen and (max-width:499.5px) {
+	.about_secone_img span {
+		margin: 30px 20px 20px 20px !important;
+	}
+}
+
+@media screen and (max-width: 993.5px) {
+	.sec_two {
+		flex-direction: column !important;
+	}
+	.about_sect_two {
+		order: 2 !important;
+	}
+	.about_sectwo_img {
+		order: 1 !important;
+	}
+}
+
+.about_container {
+	display: block;
+	position: relative;
+	min-height: 400px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	overflow-x: hidden;
+	font-family: 'Bitter', serif;
+}
+
+.about_wrap {
+	display: block;
+	position: relative;
+	min-height: 200px;
+	margin-top: 20px;
+	background-color: #F2F2F2;
+	margin-bottom: 50px;
+}
+
+.about_wrap_sections {
+	display: block;
+	margin-bottom: 50px;
+	min-height: 300px;
+	position: relative;
+}
+
+.about_sect_one {
+	display: block;
+	position: relative;
+	min-height: 300px;
+	text-align: left;
+}
+
+.about_secone_img .ab_secone_img {
+	display: block;
+	position: relative;
+	width: 450px;
+	height: 300px;
+	margin: 100px 20px 20px 20px;
+	left: -40px;
+	opacity: 0;
+	background-image: url('../images/about/chef_img.jpg');
+	background-size: 100%;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	transition: 0.5s ease-in;
+}
+
+.about_sect_one ul {
+	position: relative;
+	margin-left: 10px;
+	min-height: 310px;
+}
+
+.about_sect_one ul li:nth-child(1) {
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: #000;
+}
+
+.about_sect_one ul li:nth-child(2) {
+	margin-bottom: 30px;
+}
+
+.about_sect_one ul li {
+	color: #414141;
+	font-size: 17px;
+	padding-right: 12px;
+}
+
+.about_sect_one ul li span,
+.about_sect_three ul li span {
+	font-size: 11px;
+	margin: 0 2px 0 2px;
+}
+
+
+/* Sect two */
+
+.sec_two {
+	flex-direction: row;
+}
+
+.about_sect_two {
+	display: block;
+	min-height: 300px;
+	position: relative;
+}
+
+.about_sect_two ul li:nth-child(1) {
+	font-size: 25px !important;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 40px 0 40px 0;
+	color: $org !important;
+	position: relative;
+}
+
+.about_sect_two ul li:nth-child(1):after {
+	display: block;
+	clear: both;
+	content: "";
+	position: relative;
+	left: 0;
+	bottom: 0;
+	max-width: 250px;
+	height: 1px;
+	width: 150px;
+	border-bottom: 1px solid #949494;
+	margin: 0 auto;
+	padding: 4px 0px;
+}
+
+.about_sect_two ul li {
+	color: #414141;
+	font-size: 17px;
+	padding: 5px;
+}
+
+.about_sectwo_img .ab_sectwo_img {
+	display: block;
+	position: relative;
+	width: 400px;
+	height: 250px;
+	margin: 50px 20px 20px 20px;
+	right: -60px;
+	opacity: 0;
+	background-image: url('../images/about/flavor_img.jpg');
+	background-size: 100%;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	transition: 0.5s ease-in;
+}
+
+
+/* Third section */
+
+.about_sect_three {
+	display: block;
+	min-height: 200px;
+	position: relative;
+	margin: 40px 0 10px 0;
+	margin-left: 0 !important;
+}
+
+.about_sect_three ul li:nth-child(1) {
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 40px 0 40px 0;
+	color: $org;
+}
+
+.about_sect_three ul li:nth-child(1):after {
+	display: block;
+	clear: both;
+	content: "";
+	position: relative;
+	left: 0;
+	bottom: 0;
+	max-width: 250px;
+	height: 1px;
+	width: 150px;
+	border-bottom: 1px solid #949494;
+	margin: 0 auto;
+	padding: 4px 0px;
+}
+
+.about_sect_three ul li {
+	color: #414141;
+	font-size: 17px;
+	padding: 5px;
+}
+
