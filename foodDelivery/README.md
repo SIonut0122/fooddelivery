@@ -2,7 +2,7 @@
 
 ## About
 
-![alt text](https://raw.githubusercontent.com/SIonut0122/ecommercetv/gh-pages/static/media/ecommtv3.png)
+![alt text](https://raw.githubusercontent.com/SIonut0122/fooddelivery/gh-pages/static/media/bg_github.jpg)
 
 ## Open app: [here](https://sionut0122.github.io/fooddelivery/)
 
